@@ -1,0 +1,279 @@
+{
+	"info": {
+		"_postman_id": "a877ae43-8d37-45e3-ab77-0464027ad0e6",
+		"name": "M13",
+		"description": "M13 IT Academy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "M13_1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{IP}}:{{port}}{{api}}/employees",
+					"host": [
+						"{{IP}}"
+					],
+					"port": "{{port}}{{api}}",
+					"path": [
+						"employees"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "M13_2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"1\",\r\n    \"name\": \"Kate\",\r\n    \"job\": \"Front\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{IP}}:{{port}}{{api}}/employees",
+					"host": [
+						"{{IP}}"
+					],
+					"port": "{{port}}{{api}}",
+					"path": [
+						"employees"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "M13_3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"id\": \"2\",\r\n\t\"name\": \"John\",\r\n    \"job\": \"Back\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{IP}}:{{port}}{{api}}/employees",
+					"host": [
+						"{{IP}}"
+					],
+					"port": "{{port}}{{api}}",
+					"path": [
+						"employees"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "M13_4",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"id\": \"3\",\r\n\t\"name\": \"Alex\",\r\n    \"job\": \"Data\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{IP}}:{{port}}{{api}}/employees",
+					"host": [
+						"{{IP}}"
+					],
+					"port": "{{port}}{{api}}",
+					"path": [
+						"employees"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "M13_5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{IP}}:{{port}}{{api}}/employees",
+					"host": [
+						"{{IP}}"
+					],
+					"port": "{{port}}{{api}}",
+					"path": [
+						"employees"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "M13_6",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{IP}}:{{port}}{{api}}/employees/1",
+					"host": [
+						"{{IP}}"
+					],
+					"port": "{{port}}{{api}}",
+					"path": [
+						"employees",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "M13_7",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{IP}}:{{port}}{{api}}/employees/name/John",
+					"host": [
+						"{{IP}}"
+					],
+					"port": "{{port}}{{api}}",
+					"path": [
+						"employees",
+						"name",
+						"John"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "M13_8",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{IP}}:{{port}}{{api}}/employees/job/Front",
+					"host": [
+						"{{IP}}"
+					],
+					"port": "{{port}}{{api}}",
+					"path": [
+						"employees",
+						"job",
+						"Front"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "M13_9",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"id\": \"1\",\r\n\t\"name\": \"Kate\",\r\n    \"job\": \"Data\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{IP}}:{{port}}{{api}}/employees",
+					"host": [
+						"{{IP}}"
+					],
+					"port": "{{port}}{{api}}",
+					"path": [
+						"employees"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "M13_10",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"id\": \"1\",\r\n\t\"name\": \"Kate\",\r\n    \"job\": \"Data\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{IP}}:{{port}}{{api}}/employees/3",
+					"host": [
+						"{{IP}}"
+					],
+					"port": "{{port}}{{api}}",
+					"path": [
+						"employees",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "M13_11",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{IP}}:{{port}}{{api}}/employees",
+					"host": [
+						"{{IP}}"
+					],
+					"port": "{{port}}{{api}}",
+					"path": [
+						"employees"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
